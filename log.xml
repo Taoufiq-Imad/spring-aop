@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-01-08T13:00:17</date>
+  <millis>1610107217083</millis>
+  <sequence>4</sequence>
+  <logger>ma.enset.dpspringaop.aspect.LogAspect</logger>
+  <level>INFO</level>
+  <class>ma.enset.dpspringaop.aspect.LogAspect</class>
+  <method>log</method>
+  <thread>49</thread>
+  <message>Avant Contrat ma.enset.dpspringaop.ContratController.get(Long)</message>
+</record>
+<record>
+  <date>2021-01-08T13:00:17</date>
+  <millis>1610107217092</millis>
+  <sequence>5</sequence>
+  <logger>ma.enset.dpspringaop.aspect.LogAspect</logger>
+  <level>INFO</level>
+  <class>ma.enset.dpspringaop.aspect.LogAspect</class>
+  <method>log</method>
+  <thread>49</thread>
+  <message>Après Contrat ma.enset.dpspringaop.ContratController.get(Long)</message>
+</record>
+<record>
+  <date>2021-01-08T13:00:17</date>
+  <millis>1610107217092</millis>
+  <sequence>6</sequence>
+  <logger>ma.enset.dpspringaop.aspect.LogAspect</logger>
+  <level>INFO</level>
+  <class>ma.enset.dpspringaop.aspect.LogAspect</class>
+  <method>log</method>
+  <thread>49</thread>
+  <message>Durée : 9ms</message>
+</record>

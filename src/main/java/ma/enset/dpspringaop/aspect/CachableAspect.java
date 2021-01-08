@@ -25,8 +25,10 @@ public class CachableAspect {
         String key = CacheService.generateKey(method.getName(),parameters);
         Object returnObject = cacheService.get(key, method.getReturnType());
         if (returnObject != null){
+            System.out.println("from cache");
             return returnObject;
         }
+        System.out.println("from database");
         returnObject = joinPoint.proceed(parameters);
         cacheService.put(key, returnObject);
 
